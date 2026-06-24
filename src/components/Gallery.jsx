@@ -13,17 +13,22 @@ function Gallery() {
     AOS.init({ duration: 1200, once: true });
   }, []);
 
-  const slides = [
-    { src: "images/IMG_0422.JPG.jpeg", title: "Engagement photo" },
-    { src: "images/DSC07516.JPG.jpeg", title: "Engagement photo" },
-    { src: "images/DSC07488.JPG.jpeg", title: "Engagement photo" },
-    { src: "images/DSC07454.JPG.jpeg", title: "Engagement photo" },
-    { src: "images/DSC07468.JPG.jpeg", title: "Engagement photo" },
-    { src: "images/DSC07510.JPG.jpeg", title: "Engagement photo" },
-    { src: "images/DSC07681.JPG.jpeg", title: "Engagement photo" },
-    { src: "images/DSC07946.JPG.jpeg", title: "Engagement photo" },
-    { src: "images/DSC08193.JPG.jpeg", title: "Engagement photo" }
-  ];
+ const slides = [
+  { src: process.env.PUBLIC_URL + "/images/IMG_0422.JPG.jpeg", title: "Engagement photo" },
+  { src: process.env.PUBLIC_URL + "/images/DSC07516.JPG.jpeg", title: "Engagement photo" },
+  { src: process.env.PUBLIC_URL + "/images/DSC07488.JPG.jpeg", title: "Engagement photo" },
+    { src: process.env.PUBLIC_URL + "/images/DSC07510.JPG.jpeg", title: "Engagement photo" },
+    { src: process.env.PUBLIC_URL + "/images/DSC07468.JPG.jpeg", title: "Engagement photo" },
+      { src: process.env.PUBLIC_URL + "/images/DSC07454.JPG.jpeg", title: "Engagement photo" },
+         { src: process.env.PUBLIC_URL + "/images/DSC07946.JPG.jpeg", title: "Engagement photo" },
+        { src: process.env.PUBLIC_URL + "/images/image2.jpeg", title: "Engagement photo" },
+           { src: process.env.PUBLIC_URL + "/images/DSC08193.JPG.jpeg", title: "Engagement photo" },
+          { src: process.env.PUBLIC_URL + "/images/image1.jpeg", title: "Engagement photo" },
+            { src: process.env.PUBLIC_URL + "/images/image3.jpeg", title: "Engagement photo" },
+
+
+];
+
 
   return (
     <section className="gallery-section">

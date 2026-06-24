@@ -7,17 +7,17 @@
     "lightbox2": "^2.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.30.4",
     "react-scripts": "5.0.1",
     "yet-another-react-lightbox": "^3.32.0"
   },
   "homepage": "https://adarshadhi007.github.io/weddingInvite",
-
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "browserslist": {
