@@ -76,7 +76,7 @@ nav ul li a:hover {
   animation: fadeInUp 3s ease;
 }
 
-.rsvp-btn {
+.rsvp-btn-1 {
   display: inline-block;
   margin-top: 30px;
   padding: 14px 30px;
@@ -88,7 +88,7 @@ nav ul li a:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-.rsvp-btn:hover {
+.rsvp-btn-1:hover {
   background: #8c6a45;
   transform: scale(1.05);
 }
@@ -113,13 +113,83 @@ nav ul li a:hover {
 }
 
 /* Countdown */
-.countdown-timer {
+/* .countdown-timer {
   font-size: 2.5rem;
   font-weight: bold;
   background: linear-gradient(90deg, #b48a60, #8c6a45);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: pulse 1.5s infinite;
+} */
+.countdown-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.countdown-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+}
+
+.countdown-box {
+  background: linear-gradient(135deg, #b48a60, #8c6a45);
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  animation: float 3s ease-in-out infinite;
+  text-align: center;
+}
+
+.countdown-box .number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  display: block;
+  animation: pulse 1s infinite;
+}
+
+.countdown-box .label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+  .countdown-grid {
+    flex-direction: column; /* stack vertically */
+    align-items: center;
+  }
+nav, nav ul{
+    width: fit-content;
+}
+  .countdown-box {
+    width: 80%; /* wider boxes on mobile */
+    margin-bottom: 15px;
+  }
+
+  .countdown-box .number {
+    font-size: 2rem; /* slightly smaller numbers */
+  }
+}
+.form-iframe {
+  width: 100%;          /* take full width of parent */
+  min-height: 800px;    /* ensure enough height for desktop */
+  border: none;
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .form-iframe {
+    min-height: 600px;  /* shorter height on small screens */
+  }
+  iframe{
+    width: fit-content;
+}
 }
 
 /* Gallery */
@@ -169,7 +239,7 @@ nav ul li a:hover {
 .gallery img:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px rgba(180, 138, 96, 0.6);
-} */
+} 
 
 /* Hover caption overlay */
 .gallery a::after {
@@ -195,6 +265,7 @@ nav ul li a:hover {
 .gallery-section {
   text-align: center;
   margin: 80px auto;
+  padding:20px;
 }
 
 .gallery-title {

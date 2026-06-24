@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       {showThankYou ? (
-        <ThankYou onRedirect={() => setShowThankYou(false)} />
+        <ThankYou onRedirect={() => setShowThankYou(true)} />
       ) : (
         <>
           <HeroBanner />
