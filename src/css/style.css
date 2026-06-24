@@ -1,0 +1,239 @@
+/* Global Background */
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background: url("/public/IMG_0422.JPG.jpeg") no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  line-height: 1.7;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+/* Overlay tint for readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.4); /* soft dark overlay */
+  z-index: -1;
+}
+
+/* Navigation */
+nav {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #b48a60;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 160px 20px 100px;
+  animation: fadeInDown 1.5s ease;
+}
+
+.hero h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 5rem;
+  margin-bottom: 10px;
+  animation: fadeIn 2s ease;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  color: #b48a60;
+  animation: fadeIn 2.5s ease;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  animation: fadeInUp 3s ease;
+}
+
+.rsvp-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 30px;
+  background: #b48a60;
+  color: #fff;
+  border-radius: 40px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.rsvp-btn:hover {
+  background: #8c6a45;
+  transform: scale(1.05);
+}
+
+/* Section Cards */
+.card {
+  padding: 50px 30px;
+  margin: 60px auto;
+  max-width: 900px;
+  background: rgba(255,255,255,0.85);
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  color: #333;
+  animation: fadeIn 1.5s ease;
+}
+
+.card h3 {
+  font-size: 2rem;
+  color: #b48a60;
+  margin-bottom: 20px;
+  font-family: 'Great Vibes', cursive;
+}
+
+/* Countdown */
+.countdown-timer {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #b48a60, #8c6a45);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: pulse 1.5s infinite;
+}
+
+/* Gallery */
+/* .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.gallery img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(180, 138, 96, 0.5);
+}
+
+.gallery img {
+  width: 200px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeIn 2s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(180, 138, 96, 0.5);
+} */
+
+/* .gallery { */
+  column-count: 3; /* number of columns */
+  column-gap: 20px;
+  max-width: 1000px;
+  margin: 60px auto;
+/* }
+
+.gallery a {
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+  break-inside: avoid;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(180, 138, 96, 0.6);
+} */
+
+/* Hover caption overlay */
+.gallery a::after {
+  content: attr(data-title);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 0 0 12px 12px;
+}
+
+.gallery a:hover::after {
+  opacity: 1;
+}
+.gallery-section {
+  text-align: center;
+  margin: 80px auto;
+}
+
+.gallery-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #b48a60;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.gallery-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #b48a60, transparent);
+  margin: 15px auto 0;
+  animation: shimmer 3s infinite linear;
+}
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+}
+
+footer .script-font {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.8rem;
+}
+
+/* Animations */
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.05); } 100% { transform: scale(1); } }
