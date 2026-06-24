@@ -24,7 +24,7 @@ function Gallery() {
         { src: process.env.PUBLIC_URL + "/images/image2.jpeg", title: "Engagement photo" },
            { src: process.env.PUBLIC_URL + "/images/DSC08193.JPG.jpeg", title: "Engagement photo" },
           { src: process.env.PUBLIC_URL + "/images/image1.jpeg", title: "Engagement photo" },
-            { src: process.env.PUBLIC_URL + "/images/image3.jpeg", title: "Engagement photo" },
+            { src: process.env.PUBLIC_URL + "/images/image3.jpeg", title: "" },
 
 
 ];
