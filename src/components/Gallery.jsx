@@ -14,17 +14,17 @@ function Gallery() {
   }, []);
 
  const slides = [
-  { src: process.env.PUBLIC_URL + "/images/IMG_0422.JPG.jpeg", title: "Engagement photo" },
-  { src: process.env.PUBLIC_URL + "/images/DSC07516.JPG.jpeg", title: "Engagement photo" },
-  { src: process.env.PUBLIC_URL + "/images/DSC07488.JPG.jpeg", title: "Engagement photo" },
-    { src: process.env.PUBLIC_URL + "/images/DSC07510.JPG.jpeg", title: "Engagement photo" },
-    { src: process.env.PUBLIC_URL + "/images/DSC07468.JPG.jpeg", title: "Engagement photo" },
-      { src: process.env.PUBLIC_URL + "/images/DSC07454.JPG.jpeg", title: "Engagement photo" },
-         { src: process.env.PUBLIC_URL + "/images/DSC07946.JPG.jpeg", title: "Engagement photo" },
-        { src: process.env.PUBLIC_URL + "/images/image2.jpeg", title: "Engagement photo" },
-           { src: process.env.PUBLIC_URL + "/images/DSC08193.JPG.jpeg", title: "Engagement photo" },
-          { src: process.env.PUBLIC_URL + "/images/image1.jpeg", title: "Engagement photo" },
-            { src: process.env.PUBLIC_URL + "/images/image3.jpeg", title: "" },
+  { src: process.env.PUBLIC_URL + "/images/optimized/IMG_0422.JPG.jpeg", title: "Engagement photo" },
+  { src: process.env.PUBLIC_URL + "/images/optimized/DSC07516.JPG.jpeg", title: "Engagement photo" },
+  { src: process.env.PUBLIC_URL + "/images/optimized/DSC07488.JPG.jpeg", title: "Engagement photo" },
+    { src: process.env.PUBLIC_URL + "/images/optimized/DSC07510.JPG.jpeg", title: "Engagement photo" },
+    { src: process.env.PUBLIC_URL + "/images/optimized/DSC07468.JPG.jpeg", title: "Engagement photo" },
+      { src: process.env.PUBLIC_URL + "/images/optimized/DSC07454.JPG.jpeg", title: "Engagement photo" },
+         { src: process.env.PUBLIC_URL + "/images/optimized/DSC07946.JPG.jpeg", title: "Engagement photo" },
+        { src: process.env.PUBLIC_URL + "/images/optimized/image2.jpeg", title: "Engagement photo" },
+           { src: process.env.PUBLIC_URL + "/images/optimized/DSC08193.JPG.jpeg", title: "Engagement photo" },
+          { src: process.env.PUBLIC_URL + "/images/optimized/image1.jpeg", title: "Engagement photo" },
+            { src: process.env.PUBLIC_URL + "/images/optimized/image3.jpeg", title: "" },
 
 
 ];

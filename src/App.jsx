@@ -14,7 +14,13 @@ import "./css/style.css";
 
 function App() {
     return (
-        <div>
+        <div
+  style={{
+    background: `url(${process.env.PUBLIC_URL}/images/IMG_0422.JPG.jpeg) no-repeat center center fixed`,
+    backgroundSize: "cover",
+    height: "100vh"
+  }}
+>
             
             <HeroBanner />
             <Countdown targetDate={new Date("2026-09-12T11:15:00").getTime()} />
