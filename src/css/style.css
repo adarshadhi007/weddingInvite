@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Playfair Display', serif;
-  /* background: url("/public/IMG_0422.JPG.jpeg") no-repeat center center fixed; */
+  background: url("/public/IMG_0422.JPG.jpeg") no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   line-height: 1.7;
