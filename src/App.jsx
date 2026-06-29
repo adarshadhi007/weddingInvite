@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+
 import HeroBanner from "./components/HeroBanner";
 import Countdown from "./components/CountDown";
 import Story from "./components/Story";
@@ -8,9 +9,8 @@ import Registry from "./components/Registry";
 import Venue from "./components/Venue";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
-import Petals from "./components/Overlay";
+import ThankYou from "./components/ThankYou";
 import "./css/style.css";
-import Overlay from "./components/Overlay";
 
 function App() {
     return (

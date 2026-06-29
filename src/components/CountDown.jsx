@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+// import "./countdown.css"; // custom styles
 
 const Countdown = ({ targetDate }) => {
   const [timeLeft, setTimeLeft] = useState({});
@@ -10,7 +11,7 @@ const Countdown = ({ targetDate }) => {
 
       if (distance <= 0) {
         clearInterval(timer);
-        setTimeLeft({ message: "It's Wedding Time!" });
+        setTimeLeft({ message: "💍 It's Wedding Time!" });
         return;
       }
 
@@ -28,11 +29,28 @@ const Countdown = ({ targetDate }) => {
   return (
     <section id="countdown" className="card countdown-section">
       <h3>Countdown to Our Wedding</h3>
-      <div className="countdown-timer">
-        {timeLeft.message
-          ? timeLeft.message
-          : `${timeLeft.days}d ${timeLeft.hours}h ${timeLeft.minutes}m ${timeLeft.seconds}s`}
-      </div>
+      {timeLeft.message ? (
+        <div className="countdown-message">{timeLeft.message}</div>
+      ) : (
+        <div className="countdown-grid">
+          <div className="countdown-box">
+            <span className="number">{timeLeft.days}</span>
+            <span className="label">Days</span>
+          </div>
+          <div className="countdown-box">
+            <span className="number">{timeLeft.hours}</span>
+            <span className="label">Hours</span>
+          </div>
+          <div className="countdown-box">
+            <span className="number">{timeLeft.minutes}</span>
+            <span className="label">Minutes</span>
+          </div>
+          <div className="countdown-box">
+            <span className="number">{timeLeft.seconds}</span>
+            <span className="label">Seconds</span>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

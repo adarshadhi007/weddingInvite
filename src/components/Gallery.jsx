@@ -79,4 +79,9 @@ function Gallery() {
   );
 }
 
+<<<<<<< HEAD
 export default Gallery;
+=======
+
+export default Gallery;
+>>>>>>> e91cddcfc96c9a19aa192d473ed6d5bb8418ecb5
