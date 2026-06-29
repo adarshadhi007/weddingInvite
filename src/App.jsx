@@ -16,9 +16,6 @@ function App() {
     return (
         <div>
             
-            //  {/* <Overlay season="spring" />  */}
-    //   {/* Change to "autumn", "winter", or "summer" */}
-            // {/* <Petals /> */}
             <HeroBanner />
             <Countdown targetDate={new Date("2026-09-12T11:15:00").getTime()} />
             <Story />
