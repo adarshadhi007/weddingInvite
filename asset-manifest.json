@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/weddingInvite/static/css/main.3566d406.css",
-    "main.js": "/weddingInvite/static/js/main.b56c932d.js",
-    "static/media/image1.jpg": "/weddingInvite/static/media/image1.e9ce15cce4f0f240df94.jpg",
+    "main.css": "/weddingInvite/static/css/main.a45df844.css",
+    "main.js": "/weddingInvite/static/js/main.c8300235.js",
+    "static/media/image1.png": "/weddingInvite/static/media/image1.e3d7a5fba8f73095f0ad.png",
     "index.html": "/weddingInvite/index.html",
-    "main.3566d406.css.map": "/weddingInvite/static/css/main.3566d406.css.map",
-    "main.b56c932d.js.map": "/weddingInvite/static/js/main.b56c932d.js.map"
+    "main.a45df844.css.map": "/weddingInvite/static/css/main.a45df844.css.map",
+    "main.c8300235.js.map": "/weddingInvite/static/js/main.c8300235.js.map"
   },
   "entrypoints": [
-    "static/css/main.3566d406.css",
-    "static/js/main.b56c932d.js"
+    "static/css/main.a45df844.css",
+    "static/js/main.c8300235.js"
   ]
 }
