@@ -19,7 +19,7 @@ function App() {
             <HeroBanner />
             <Countdown targetDate={new Date("2026-09-12T11:15:00").getTime()} />
             <Story />
-            <TravelStay />
+            {/* <TravelStay /> */}
             <Blessings />
             <Registry />
             <Venue />

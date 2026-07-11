@@ -6,7 +6,7 @@ const HeroBanner = () => (
     <nav>
       <ul>
         <li><a href="#story">Our Story</a></li>
-        <li><a href="#travel">Travel & Stay</a></li>
+        {/* <li><a href="#travel">Travel & Stay</a></li> */}
         <li><a href="#blessings">Blessings</a></li>
         <li><a href="#registry">Registry</a></li>
       </ul>

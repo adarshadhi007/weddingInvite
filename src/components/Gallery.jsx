@@ -14,17 +14,18 @@ function Gallery() {
   }, []);
 
  const slides = [
-  { src: process.env.PUBLIC_URL + "/images/optimized/IMG_0422.JPG.jpeg", title: "Engagement photo" },
-  { src: process.env.PUBLIC_URL + "/images/optimized/DSC07516.JPG.jpeg", title: "Engagement photo" },
-  { src: process.env.PUBLIC_URL + "/images/optimized/DSC07488.JPG.jpeg", title: "Engagement photo" },
-    { src: process.env.PUBLIC_URL + "/images/optimized/DSC07510.JPG.jpeg", title: "Engagement photo" },
-    { src: process.env.PUBLIC_URL + "/images/optimized/DSC07468.JPG.jpeg", title: "Engagement photo" },
-      { src: process.env.PUBLIC_URL + "/images/optimized/DSC07454.JPG.jpeg", title: "Engagement photo" },
-         { src: process.env.PUBLIC_URL + "/images/optimized/DSC07946.JPG.jpeg", title: "Engagement photo" },
-        { src: process.env.PUBLIC_URL + "/images/optimized/image2.jpeg", title: "Engagement photo" },
-           { src: process.env.PUBLIC_URL + "/images/optimized/DSC08193.JPG.jpeg", title: "Engagement photo" },
-          { src: process.env.PUBLIC_URL + "/images/optimized/image1.jpeg", title: "Engagement photo" },
-            { src: process.env.PUBLIC_URL + "/images/optimized/image3.jpeg", title: "" },
+  { src: process.env.PUBLIC_URL + "/images/image1.png", title: "Engagement photo" },
+  { src: process.env.PUBLIC_URL + "/images/image2.jpg", title: "Engagement photo" },
+  { src: process.env.PUBLIC_URL + "/images/image3.jpeg", title: "Engagement photo" },
+    { src: process.env.PUBLIC_URL + "/images/image4.jpeg", title: "Engagement photo" },
+    { src: process.env.PUBLIC_URL + "/images/image5.jpeg", title: "Engagement photo" },
+      { src: process.env.PUBLIC_URL + "/images/image6.jpeg", title: "Engagement photo" },
+         { src: process.env.PUBLIC_URL + "/images/image7.jpeg", title: "Engagement photo" },
+        { src: process.env.PUBLIC_URL + "/images/image8.jpeg", title: "Engagement photo" },
+           { src: process.env.PUBLIC_URL + "/images/image9.jpeg", title: "Engagement photo" },
+          { src: process.env.PUBLIC_URL + "/images/image10.jpeg", title: "Engagement photo" },
+            { src: process.env.PUBLIC_URL + "/images/image11.jpeg", title: "" },
+            { src: process.env.PUBLIC_URL + "/images/image12.jpeg", title: "" },
 
 
 ];
