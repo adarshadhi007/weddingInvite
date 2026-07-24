@@ -9,8 +9,17 @@ body {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
+* {
+  box-sizing: border-box;
+}
 
-/* Overlay tint for readability */
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}/* Overlay tint for readability */
 body::before {
   content: "";
   position: fixed;
@@ -164,8 +173,23 @@ nav ul li a:hover {
     flex-direction: column; /* stack vertically */
     align-items: center;
   }
-nav, nav ul{
-    width: -webkit-fill-available;
+nav,
+nav ul {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between; /* or center */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
   .countdown-box {
     width: 80%; /* wider boxes on mobile */
