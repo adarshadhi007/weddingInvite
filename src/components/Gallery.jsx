@@ -32,7 +32,7 @@ function Gallery() {
 
 
   return (
-    <section className="gallery-section">
+    <section id="gallery-section" className="gallery-section">
       <h2 className="gallery-title" data-aos="fade-down">Photo Gallery</h2>
       <div className="gallery">
         {slides.map((slide, i) => (
