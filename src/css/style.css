@@ -165,7 +165,7 @@ nav ul li a:hover {
     align-items: center;
   }
 nav, nav ul{
-    width: fit-content;
+    width: -webkit-fill-available;
 }
   .countdown-box {
     width: 80%; /* wider boxes on mobile */
