@@ -14,7 +14,7 @@ const HeroBanner = () => (
     <div className="hero-text">
       <h1>We’re Getting Married</h1>
       <h2>Adarsh & Karthika</h2>
-      <p>September 13, 2026<br/>SN Study Center, Ambalakavala<br/>11:15 AM</p>
+      <p>September 13, 2026<br/>SN Study Center, Ambalakavala<br/> Muhurtham : 11.55 AM</p>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTZrW_36kcw88s84lb4SDZU0gA5a9Ql-IdMOiREAXwMxO-lw/viewform?usp=publish-editor"
          target="_blank" rel="noreferrer" className="rsvp-btn-1">RSVP</a>
     </div>
