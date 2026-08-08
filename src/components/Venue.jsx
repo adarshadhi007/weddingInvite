@@ -20,8 +20,9 @@ const Venues = () => (
 
     <div className="venue-block">
       <h4>Reception</h4>
-      <p>BBC Auditorium, Prayar</p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.9522495918627!2d76.59678737360294!3d9.337493190736643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0623013f9aba31%3A0xe99f774cef07a477!2sBrethren%20Believers&#39;%20Campus%20(BBC)%20Auditorium!5e0!3m2!1sen!2sin!4v1784914193396!5m2!1sen!2sin"width="100%"
+      <p>St Mary's Parish Hall, Kallissery</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3936.9494080254285!2d76.60062787502261!3d9.337744690736448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwMjAnMTUuOSJOIDc2wrAzNicxMS41IkU!5e0!3m2!1sen!2sin!4v1786209655386!5m2!1sen!2sin"
+      width="100%"
         height="350"
         style={{ border: 0 }}
         allowFullScreen=""
